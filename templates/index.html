@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Sandbox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <form action="/weather" method="get">
+                    <button type="submit">Weather</button>
+                </form>
+            </li>
+                
+            <li>
+                <form action="/cat" method="get">
+                    <button type="submit">Cat</button>
+                </form>
+            </li>
+                
+            <li>
+            <form action="/dog" method="get">
+                    <button type="submit">Dog</button>
+                </form> 
+            </li>
+        </ul>
+    </div>    
+</body>
+</html>
